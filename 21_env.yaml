@@ -1,0 +1,16 @@
+name: 21_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - gym
+  - pytorch
+  - matplotlib
+  - pandas
+  - pytest
+  - pip
+  - pip:
+      - torch  # To ensure compatibility with PyTorch
+      - tensorboard  # Optional, for logging training metrics
